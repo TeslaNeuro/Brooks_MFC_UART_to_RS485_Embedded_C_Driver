@@ -1,5 +1,5 @@
 # Brooks MFC UART to RS485 Embedded C STM32 Driver
-- Brooks S-Protocol Mass Flow Controller RS485 Driver for STM32 microcontrollers. 
+- Brooks S-Protocol Mass Flow Controller RS485 Driver for STM32F4 microcontrollers. 
 - Ensure Brooks MFC last 8 digit Serial number or Tag ID is acquired in advance for the purpose of testing or implementation.
 - Typically requires a UART to RS485 chip for communication, preferably an isolated one (See http://www.ti.com/lit/ds/symlink/iso3082.pdf).
 - Ground must be shared with power supply and HSXC to avoid any communication or signalling issues.
