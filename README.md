@@ -8,14 +8,14 @@
 - See " RS485 Supplemental Manual " for more details of the driver implementation. (https://cdn.brooksinstrument.com/-/media/brooks/documentation/products/mass-flow-controllers/elastomer-sealed/sla5800/rs485-manual-sla5800-slamf.pdf?rev=-1&sc_lang=en&hash=10edc89cdf8c24ffaa1421f811dd958e)
 - See Brooks MFC Alarm Codes for more information on how to implement and construct the correct set of bytes when enabling alarm codes.
 
-# STM32 UART Required Settings
+## STM32 UART Required Settings
 - UART Asynchronous must be enabled, Global interrupt must be enabled (Check NVIC Settings for STM32)
 - Baud rate by default 19200 Bits/s (BROOKS MFC DEFAULT BAUD RATE)
 - Word Length 9 bits (including parity)
 - Parity Odd
 - Stop Bits 1
 
-# STM32 Global Interrupt Function
+## STM32 Global Interrupt Function
 Depending on the STM32 UART peripheral you are using it is imperative the following global interrupt function is added to stm32fxxx_it.c . 
 	
  	// @brief This function handles USART2 global interrupt.
@@ -30,7 +30,7 @@ Depending on the STM32 UART peripheral you are using it is imperative the follow
 	}
 
 	
-# Main.c Requirements
+## Main.c Requirements
 
 Ensure you have initialised BrooksProInit() function in int main(void) :
 
