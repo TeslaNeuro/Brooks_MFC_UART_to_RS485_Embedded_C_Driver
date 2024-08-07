@@ -46,6 +46,9 @@ Ensure functions BrooksProTXHandler() and BrooksProHandler() are being called in
 			brookspromsec = HAL_GetTick();
 	}
 	BrooksProHandler();
+## Brooks Mass Flow Controller
+![image](https://github.com/user-attachments/assets/c9ef4fb1-7d61-4363-b887-fa022184e216)
+
 ## License
 
 This project includes firmware, software, hardware designs, and integration components and is licensed under the [Custom License Agreement](./LICENSE).
