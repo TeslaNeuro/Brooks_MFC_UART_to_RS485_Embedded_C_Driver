@@ -16,8 +16,8 @@
  * Source for commands: https://cdn.brooksinstrument.com/-/media/brooks/documentation/products/mass-flow-controllers/elastomer-sealed/sla5800/rs485-manual-sla5800-slamf.pdf
  * STM32F4xxx or ARM CORTEX-M is LITTLE ENDIAN =====>>>> BROOKS RS485 S-Protocol is BIG ENDIAN
  * =========================================================================================================================================================================
- * @NOTE: BROOKS SLA5800 MFC MODELs Must be used for setting negative flow alarm limits
- * The Old BROOKS SLA5850S MFC MODEL does not support negative flow alarm limits
+ * @NOTE: BROOKS SLA58xx MFC NEW MODELS Must be used for setting negative flow alarm limits
+ * The Old BROOKS SLA58xx MFC MODELS does not support negative flow alarm limits
  * Any alarm code that gets enabled is typically volatile meaning it will be reset back to default(OFF / FALSE) after a power cycle (OFF/ON)
  */
 
