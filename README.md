@@ -49,6 +49,8 @@ Ensure functions BrooksProTXHandler() and BrooksProHandler() are being called in
 ## Brooks Mass Flow Controller
 ![image](https://github.com/user-attachments/assets/c9ef4fb1-7d61-4363-b887-fa022184e216)
 
+![image](https://github.com/user-attachments/assets/981ab9a3-4d24-4e26-aa69-181f44599c26)
+
 ## License
 
 This project includes firmware, software, hardware designs, and integration components and is licensed under the [Custom License Agreement](./LICENSE).
