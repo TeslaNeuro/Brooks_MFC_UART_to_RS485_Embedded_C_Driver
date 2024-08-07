@@ -3,13 +3,6 @@
  *
  *  Created on: May 13, 2024
  *      Author: Arshia Keshvari
- */
-
-/*
- * RingBuffer.h
- *
- *  Created on: 23 Jan 2022
- *      Author: Harris Shallcross
  *
  * FIFO source: http://www.simplyembedded.org/tutorials/interrupt-free-ring-buffer/
  *
