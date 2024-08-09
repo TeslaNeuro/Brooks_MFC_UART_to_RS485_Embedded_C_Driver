@@ -5,7 +5,7 @@
 - Ground must be shared with power supply and components used to avoid any communication or signalling issues.
 - Before operating the device, ensure all fluid connections have been properly tightened and, where applicable, all electrical connections have been properly terminated.
 - Brooks MFC RS485 Pins are: Pin #14 RS485 B (inverted driver side) Pin #15  A (non-inverted driver side)
-- See " RS485 Supplemental Manual " for more details of the driver implementation. (https://cdn.brooksinstrument.com/-/media/brooks/documentation/products/mass-flow-controllers/elastomer-sealed/sla5800/rs485-manual-sla5800-slamf.pdf?rev=-1&sc_lang=en&hash=10edc89cdf8c24ffaa1421f811dd958e)
+- See " RS485 Supplemental Manual " for more details of the driver implementation. (https://cdn.brooksinstrument.com/-/media/brooks/documentation/products/mass-flow-controllers/elastomer-sealed/sla5800/rs485-manual-sla5800-slamf.pdf)
 - See Brooks MFC Alarm Codes for more information on how to implement and construct the correct set of bytes when enabling alarm codes.
 
 ## STM32 UART Required Settings
