@@ -39,7 +39,7 @@ Ensure you have initialised BrooksProInit() function in int main(void) :
  
  	uint32_t brookspromsec = 0;
 
-Ensure functions BrooksProTXHandler() and BrooksProHandler() are being called inside of While(1) :
+Ensure functions BrooksProTXHandler() and BrooksProHandler() are being called inside of your main loop While(1) :
 
 	if((HAL_GetTick()-brookspromsec) >= BROOKSPRO_POLLRATE){
 			BrooksProTXHandler();
