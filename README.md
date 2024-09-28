@@ -2,7 +2,7 @@
 - Brooks S-Protocol Mass Flow Controller RS485 Driver for STM32F4 microcontrollers. 
 - Ensure Brooks MFC last 8 digit Serial number or Tag ID is acquired in advance for the purpose of testing or implementation.
 - RS485 main advantages as compared to other serial communication are tolerance to electrical noise, lengthy cable runs, multiple slaves in one connection, and fast data transmission speed. Acting as a perfect candidate for industrial applications where reliability is critical.
-- Typically requires a UART to RS485 chip for communication, preferably an isolated one (See http://www.ti.com/lit/ds/symlink/iso3082.pdf).
+- Typically requires a UART to RS485 chip for communication, preferably an isolated one (See [http://www.ti.com/lit/ds/symlink/iso3082.pdf](https://www.ti.com/lit/gpn/iso3082)).
 - Ground must be shared with power supply and components used to avoid any communication or signalling issues.
 - Before operating the device, ensure all fluid connections have been properly tightened and, where applicable, all electrical connections have been properly terminated.
 - Brooks MFC RS485 Pins are: Pin #14 RS485 B (inverted driver side) Pin #15  A (non-inverted driver side)
