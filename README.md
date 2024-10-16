@@ -51,6 +51,7 @@ Ensure functions BrooksProTXHandler() and BrooksProHandler() are being called in
   ![image](https://github.com/user-attachments/assets/c9ef4fb1-7d61-4363-b887-fa022184e216)
 
 - Mass flow controllers typically require a stable and reliable power supply and product calibration depending on the gas being used for your application (Hydrogen, Nitrogen and etc).
+- Use Nitrogen Gas for testing purposes as less risks and higher personal safety is garaunteed. 
 
 ## License
 
