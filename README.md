@@ -12,7 +12,7 @@
 
 ## STM32 UART Required Settings
 - UART Asynchronous must be enabled, Global interrupt must be enabled (Check NVIC Settings for STM32)
-- Baud rate by default 19200 Bits/s (BROOKS MFC FACTORY DEFAULT BAUD RATE)
+- Baud rate by default 19200 Bits/s (BROOKS MFC FACTORY DEFAULT BAUD RATE ! You can alter this by sending a command check documentation)
 - Word Length 9 bits (including parity)
 - Parity Odd
 - Stop Bits 1
