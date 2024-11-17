@@ -551,7 +551,7 @@ void brooks_send_alarm_command_message(uint8_t* message, float Lower_Limit_Value
 }
 
 /*
- * 	SLA5800 Models SHyGaN Project Default Alarm Codes
+ * 	SLA5800 Models Project Default Alarm Codes
  *	Byte 0	0x2b
  *	Byte 1	0x40
  *	Byte 2	0x00 ====> 0x03 (Enables LOW/HIGH FLOW ALARM LIMITS see Brooks Alarm Codes on how to enable specific alarms)
