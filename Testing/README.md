@@ -25,7 +25,7 @@ This testing setup avoids unnecessary abstraction layers to give you a clear vie
 - **Hands-on interaction** with the protocol
 - **Extendable scripts** to test new features or custom implementations
 
-Whether you're debugging, learning the protocol, or prototyping your own tools—this folder is your go-to resource.
+Whether you're debugging, learning the protocol, or prototyping your own tools, this folder is your go-to resource.
 
 ---
 
